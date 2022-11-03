@@ -13,7 +13,7 @@ module.exports = {
       port: 7545,
       network_id: "*",
       // replace by local ganache account
-      from: "0x7f87C43136F7A4c78788bEb8e39EE400328f184a"
+      // from: "0x7f87C43136F7A4c78788bEb8e39EE400328f184a"
     },
     testnet: { // truffle deploy --network testnet
       provider: () => new HDWalletProvider(secret.MMENOMIC, `https://data-seed-prebsc-1-s1.binance.org:8545`),
