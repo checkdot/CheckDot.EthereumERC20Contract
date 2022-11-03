@@ -7,7 +7,9 @@
   },
   "scripts": {
     "lint": "npx prettier --write ./contracts",
-    "run-server": "npx hardhat node --port 7545"
+    "run-server": "npx hardhat node --port 7545",
+    "deploy": "truffle migrate -f 1 --to 1",
+    "verifyCalculatorProxy": "truffle run verify CheckDot --network eth"
   },
   "author": "CheckDot Team",
   "license": "MIT",
